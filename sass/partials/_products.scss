@@ -1,0 +1,10 @@
+@import "../variables";
+
+.products {
+  height: 100vh;
+  display: flex;
+
+  h1 {
+    @include h1($color-main)
+  }
+}

@@ -1,0 +1,15 @@
+@import "../variables";
+
+.about {
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+
+  h1 {
+    @include h1($color-main)
+  }
+  >div{
+    height: 80vh;
+    width: 100%;
+  }
+}

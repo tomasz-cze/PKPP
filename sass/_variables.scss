@@ -1,0 +1,10 @@
+$color-background: white;
+$color-main: black;
+
+@mixin h1 ($color) {
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 10vh;
+  width: 100vw;
+}

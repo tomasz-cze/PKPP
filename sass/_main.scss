@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: $color-background;
+}
+
+section {
+    clear: both;
+    display: block;
+    content: '';
+}
+
+
+@mixin border($color) {
+  border: 1px solid $color;
+}
+
+section, div, nav, header, footer, h1, article, img {
+  @include border(red);
+}
