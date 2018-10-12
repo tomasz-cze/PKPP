@@ -1,9 +1,11 @@
 header {
+  position: fixed;
+  top: 0;
   background-color: black;
   width: 100vw;
   height: 10vh;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   .logo {
     width: 40%;
   }

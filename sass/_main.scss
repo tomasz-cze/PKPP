@@ -11,10 +11,10 @@ body {
   background-color: $color-background;
 }
 
-section {
-    clear: both;
-    display: block;
-    content: '';
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 

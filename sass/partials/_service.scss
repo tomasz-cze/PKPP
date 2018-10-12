@@ -1,6 +1,6 @@
 @import "../variables";
 
-.products {
+.service {
   height: 100vh;
   display: flex;
   flex-wrap: wrap;
@@ -11,5 +11,11 @@
   >div{
     height: 80vh;
     width: 100%;
+    article {
+      
+    }
+    img {
+
+    }
   }
 }
