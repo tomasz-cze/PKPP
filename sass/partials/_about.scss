@@ -10,12 +10,28 @@
     background-image: url("../images/a.jpg");
     background-size: cover;
     background-position: center;
-    margin-top: 10vh;
+    margin-top: 15vh;
   }
   h1 {
     @include h1($color-main)
   }
-  article {
-    height: 60vh;
+  >div {
+    height: 40vh;
+    display: flex;
+    article {
+      padding: 3%;
+      width: 60%;
+      &:first-letter {
+        font-size: 2rem;
+      }
+    }
+    #img1 {
+      width: 40%;
+      height: 100%;
+      bottom: 0;
+      right: 0;
+      background-image: url("../images/photo1.jpeg");
+    }
   }
+
 }

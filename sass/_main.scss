@@ -9,6 +9,7 @@
 
 body {
   background-color: $color-background;
+  font-family: Vollkorn, Arial, SansSerif;
 }
 
 .clearfix::after {
@@ -19,9 +20,15 @@ body {
 
 
 @mixin border($color) {
-  border: 1px solid $color;
+  border: 1px solid white;
 }
 
 section, div, nav, header, footer, h1, article, img {
   @include border(red);
+}
+
+h1 {
+  border-top: 5px solid black;
+  padding-top: 5%;
+  font-size: 2rem;
 }

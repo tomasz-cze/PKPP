@@ -49,7 +49,8 @@ table {
   margin: 0 auto; }
 
 body {
-  background-color: white; }
+  background-color: white;
+  font-family: Vollkorn, Arial, SansSerif; }
 
 .clearfix::after {
   content: "";
@@ -57,27 +58,39 @@ body {
   display: table; }
 
 section, div, nav, header, footer, h1, article, img {
-  border: 1px solid red; }
+  border: 1px solid white; }
+
+h1 {
+  border-top: 5px solid black;
+  padding-top: 5%;
+  font-size: 2rem; }
 
 header {
-  position: fixed;
-  top: 0;
   background-color: black;
+  top: 0;
   width: 100vw;
-  height: 10vh;
-  display: flex;
-  justify-content: space-around; }
-  header .logo {
-    width: 40%; }
-  header nav {
-    color: white;
-    width: 40%;
-    display: flex; }
-    header nav ul {
-      width: 100%;
-      display: flex;
-      justify-content: space-evenly;
-      align-items: center; }
+  height: 15vh;
+  position: fixed;
+  font-size: 1.5rem; }
+  header div {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    height: 15vh; }
+    header div .logo {
+      width: 30%;
+      background-image: url("../images/logo-bwhite.jpg");
+      background-size: cover;
+      background-position: center; }
+    header div nav {
+      color: white;
+      width: 40%;
+      display: flex; }
+      header div nav ul {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center; }
 
 .slideshow {
   height: 30vh;
@@ -96,37 +109,62 @@ header {
     background-image: url("../images/a.jpg");
     background-size: cover;
     background-position: center;
-    margin-top: 10vh; }
+    margin-top: 15vh; }
   .about h1 {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     text-align: center;
     height: 10vh;
     width: 100vw; }
-  .about article {
-    height: 60vh; }
+  .about > div {
+    height: 40vh;
+    display: flex; }
+    .about > div article {
+      padding: 3%;
+      width: 60%; }
+      .about > div article:first-letter {
+        font-size: 2rem; }
+    .about > div #img1 {
+      width: 40%;
+      height: 100%;
+      bottom: 0;
+      right: 0;
+      background-image: url("../images/photo1.jpeg"); }
 
 .service {
   height: 100vh;
   display: flex;
   flex-wrap: wrap; }
   .service h1 {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     text-align: center;
     height: 10vh;
     width: 100vw; }
   .service > div {
     height: 80vh;
-    width: 100%; }
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse; }
+    .service > div article {
+      padding: 3%;
+      width: 60%; }
+      .service > div article:first-letter {
+        font-size: 2rem; }
+    .service > div #img2 {
+      width: 40%;
+      height: 30%;
+      bottom: 0;
+      right: 0;
+      background-image: url("../images/photo1.jpeg"); }
 
 .products {
   height: 100vh;
   display: flex;
   flex-wrap: wrap; }
   .products h1 {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     text-align: center;
     height: 10vh;
     width: 100vw; }
@@ -139,8 +177,8 @@ header {
   display: flex;
   flex-wrap: wrap; }
   .contact h1 {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     text-align: center;
     height: 10vh;
     width: 100vw; }

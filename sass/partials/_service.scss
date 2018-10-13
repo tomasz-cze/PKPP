@@ -11,11 +11,21 @@
   >div{
     height: 80vh;
     width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
     article {
-      
+      padding: 3%;
+      width: 60%;
+      &:first-letter {
+        font-size: 2rem;
+      }
     }
-    img {
-
+    #img2 {
+      width: 40%;
+      height: 30%;
+      bottom: 0;
+      right: 0;
+      background-image: url("../images/photo1.jpeg");
     }
   }
 }
