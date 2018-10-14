@@ -10,7 +10,7 @@
     background-image: url("../images/a.jpg");
     background-size: cover;
     background-position: center;
-    margin-top: 15vh;
+    margin-top: 0;
   }
   h1 {
     @include h1($color-main)
@@ -31,6 +31,8 @@
       bottom: 0;
       right: 0;
       background-image: url("../images/photo1.jpeg");
+      background-repeat: no-repeat;
+      background-size: cover;
     }
   }
 
