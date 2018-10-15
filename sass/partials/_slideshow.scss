@@ -1,8 +1,22 @@
-.slideshow {
-  //width: 100%;
-  height: 30vh;
-background-image: url("../images/a.jpg");
-  background-size: cover;
-  background-position: center;
-  margin-top: 10vh;
+//
+//.slideshow {
+//  width: 100%;
+//  height: 30vh;
+//  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+//  div {
+//    height: 100%;
+//    width: 100%;
+//    ul {
+//      height: 100%;
+//      width: 100%;
+//      img {
+//        height: 100%;
+//        display: none;
+//      }
+//    }
+//
+//  }
+//}
+.showSlide {
+  display: inline-block;
 }
