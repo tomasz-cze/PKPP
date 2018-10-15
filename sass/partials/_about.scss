@@ -30,17 +30,18 @@
   }
   div:last-child {
     height: 40vh;
-    width: 100%;
+    //width: 100%;
     display: flex;
     article {
       padding: 3%;
-      width: 60%;
+      //width: 60%;
       &:first-letter {
         font-size: 2rem;
       }
     }
     #img1 {
-      width: 40%;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+      //width: 40%;
       height: 100%;
       bottom: 0;
       right: 0;

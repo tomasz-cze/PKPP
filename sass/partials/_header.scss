@@ -29,6 +29,9 @@ header {
         display: flex;
         justify-content: space-evenly;
         align-items: center;
+        li:hover{
+          border: 1px solid white;
+        }
       }
     }
   }
