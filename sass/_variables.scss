@@ -8,3 +8,15 @@ $color-main: black;
   height: 10vh;
   width: 100vw;
 }
+
+%col {
+  float: left;
+  margin: 0 0.8771929824561403%;
+  overflow: hidden;
+}
+
+@mixin transition($transition-property, $transition-time, $method)  {
+  -webkit-transition: $transition-property $transition-time $method;
+  -moz-transition: $transition-property $transition-time $method;
+  transition: $transition-property $transition-time $method;
+}

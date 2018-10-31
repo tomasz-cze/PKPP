@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
 
+    // timer for automatic slideshow
 
     let slideShow = document.querySelector(".slideShow").children;
     let counter = 0;
