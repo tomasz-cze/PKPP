@@ -11,8 +11,23 @@
   >div{
     height: 80vh;
     width: 100%;
-    article {
+    form {
+      input, textarea {
+        margin: 5%;
+        background-color: #d0d0d0;
+        border-style: none;
+      }
+    }
+    .descriptionContact  {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      >div {
 
+        height: 20%;
+        display: flex;
+        justify-content: center;
+      }
     }
 
   }

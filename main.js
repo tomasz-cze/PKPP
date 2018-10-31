@@ -35,6 +35,25 @@ document.addEventListener("DOMContentLoaded", function () {
             scrollTop: parseInt($("#top").offset().top)
         }, 400);
     });
+    $(".gallery button").click(function () {
+        $('.port, .gallery ul').removeClass('item_open');
+        return false;
+
+    });
+
+    // media Queryy
+    function myFunction(x) {
+        if (x.matches) { // If media query matches
+            $("article").removeClass("col-4") ;
+            $("article").addClass("col-6")
+        } else {
+            document.p.style.width = "300px";
+        }
+    }
+
+    var x = window.matchMedia("(max-width: 600px)");
+    myFunction(x) // Call listener function at run time
+    x.addListener(myFunction) // Attach listener function on state changes
 });
 
 
