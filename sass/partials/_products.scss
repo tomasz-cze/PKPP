@@ -103,7 +103,7 @@
       opacity: 0;
       @include transition(all, 0.5s, linear);
     }
-    & .item_open {
+    &.item_open {
       visibility: visible;
       -webkit-transform: translateY(0%);
       transform: translateY(0%);
@@ -128,7 +128,7 @@
   opacity: 1;
   z-index: 1004;
   @include transition(all, 0.1s, ease-in-out);
-  .item_open & {
+  &.item_open  {
     opacity: 1;
     top: 0px;
     @include transition(all, 0.3s, ease-in-out);

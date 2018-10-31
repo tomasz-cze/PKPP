@@ -89,7 +89,6 @@ section {
   padding-top: 15vh; }
 
 h1 {
-  border-top: 3px solid black;
   padding-top: 5%;
   font-size: 2rem; }
 
@@ -104,16 +103,16 @@ header {
   background-color: black;
   top: 0;
   width: 100vw;
-  height: 15vh;
+  height: 10vh;
   position: fixed;
   font-size: 1.5rem; }
   header div {
     display: flex;
     justify-content: space-around;
     background-color: black;
-    height: 15vh; }
+    height: 10vh; }
     header div .logo {
-      width: 30%;
+      width: 19%;
       background-image: url("../images/logo-bwhite.jpg");
       background-size: cover;
       background-position: center; }
@@ -315,7 +314,7 @@ header {
       -webkit-transition: all 0.5s linear;
       -moz-transition: all 0.5s linear;
       transition: all 0.5s linear; }
-    .products .port .item_open {
+    .products .port.item_open {
       visibility: visible;
       -webkit-transform: translateY(0%);
       transform: translateY(0%);
@@ -339,7 +338,7 @@ header {
   -webkit-transition: all 0.1s ease-in-out;
   -moz-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out; }
-  .item_open .close {
+  .close.item_open {
     opacity: 1;
     top: 0px;
     -webkit-transition: all 0.3s ease-in-out;
